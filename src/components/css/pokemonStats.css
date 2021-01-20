@@ -1,0 +1,91 @@
+
+.info__pokemon-stats {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 250px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .info__pokemon-stats > .pokemon-stats-left,
+  .info__pokemon-stats .pokemon-stats-right {
+    padding: 5px;
+    height: 240px;
+  }
+  
+  .info__pokemon-stats > .pokemon-stats-left > .pokemon-stats-title,
+  .info__pokemon-stats .pokemon-stats-right > .pokemon-stats-title {
+    padding: 0px 5px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    color: #dfdfdf;
+    display: block;
+    border-bottom: 1px solid #2C5364;
+  }
+  
+  .pokemon-stats-left {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .pokemon-stats-left > .pokemon-stat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 0.625rem;
+  }
+  
+  .pokemon-stats-left > .pokemon-stat > h5 {
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: #dfdfdf;
+  }
+  
+  .pokemon-stats-left > .pokemon-stat > .progress {
+    width: 100%;
+    height: 0.75rem;
+    background: #1c1f25;
+    border-radius: 2px;
+  }
+  
+  .pokemon-stats-left > .pokemon-stat > .progress > .progress-bar {
+    height: 100%;
+    width: 0%;
+    background: -webkit-gradient(linear, left top, right top, from(#0084ac), to(#53d7ff));
+    background: linear-gradient(90deg, #0084ac 0%, #53d7ff 100%);
+    border-radius: 2px;
+    position: relative;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
+  }
+  
+  .pokemon-stats-left > .pokemon-stat > .progress > .progress-bar > div {
+    position: absolute;
+    right: 5%;
+    color: #242424;
+    font-weight: 600;
+    font-size: 10px;
+  }
+  
+  .pokemon-stats-right {
+    width: 100%;
+    height: 100%;
+  }
