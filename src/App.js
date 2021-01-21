@@ -181,9 +181,10 @@ function App() {
         e.preventDefault()
         const search = document.getElementById("button-search");
         const idPoke = search.value
- 
+        const id = idPoke.toLowerCase()
+
          try {
-             let res = await fetch(`https://pokeapi.co/api/v2/pokemon/${idPoke}`)
+             let res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
              let data = await res.json()
              // console.log(data)
 
@@ -191,9 +192,8 @@ function App() {
                 return img.name === data.types[0].type.name;
             }
 
-            const dataImg = data.types[0].type.name
             
-            console.log(dataImg)
+            // console.log(dataImg)
             const typeName = typeImgData.find(value);
 
             // console.log(typeName)
