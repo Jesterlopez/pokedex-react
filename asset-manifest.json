@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pokedex-react/static/css/main.55e42e44.chunk.css",
+    "main.css": "/pokedex-react/static/css/main.0e3cd0a5.chunk.css",
     "main.js": "/pokedex-react/static/js/main.39229e52.chunk.js",
     "main.js.map": "/pokedex-react/static/js/main.39229e52.chunk.js.map",
     "runtime-main.js": "/pokedex-react/static/js/runtime-main.383a9164.js",
@@ -10,7 +10,7 @@
     "static/js/2.a1311456.chunk.js.map": "/pokedex-react/static/js/2.a1311456.chunk.js.map",
     "index.html": "/pokedex-react/index.html",
     "static/css/2.081f420c.chunk.css.map": "/pokedex-react/static/css/2.081f420c.chunk.css.map",
-    "static/css/main.55e42e44.chunk.css.map": "/pokedex-react/static/css/main.55e42e44.chunk.css.map",
+    "static/css/main.0e3cd0a5.chunk.css.map": "/pokedex-react/static/css/main.0e3cd0a5.chunk.css.map",
     "static/js/2.a1311456.chunk.js.LICENSE.txt": "/pokedex-react/static/js/2.a1311456.chunk.js.LICENSE.txt",
     "static/media/PokeGe.c77336ba.svg": "/pokedex-react/static/media/PokeGe.c77336ba.svg",
     "static/media/styles.css": "/pokedex-react/static/media/bgBall.2cd384db.jpg"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.383a9164.js",
     "static/css/2.081f420c.chunk.css",
     "static/js/2.a1311456.chunk.js",
-    "static/css/main.55e42e44.chunk.css",
+    "static/css/main.0e3cd0a5.chunk.css",
     "static/js/main.39229e52.chunk.js"
   ]
 }
