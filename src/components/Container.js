@@ -1,11 +1,11 @@
-import React from 'react' 
+import React from 'react'
 
-function Container({data}){
-    return(
+function Container ({ data }) {
+  return (
        <div>
            {data}
-       </div> 
-    )
+       </div>
+  )
 }
 
 export default Container

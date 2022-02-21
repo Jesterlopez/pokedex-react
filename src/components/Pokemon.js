@@ -1,7 +1,8 @@
 import React from 'react'
 
-function Pokemon(props){
-    return (
+function Pokemon (props) {
+  return (
+
         <span className="card-pokemon-content">
             <div className="card-pokemon-number">
             {props.pokemonId}
@@ -21,6 +22,6 @@ function Pokemon(props){
                 </div>
             </div>
         </span>
-    )
+  )
 }
 export default Pokemon
